@@ -7,7 +7,7 @@
 ------------------------------------------------------------------------
 
 config = {
-    openCommand = "wam", -- Command that will open the weapon animation menu.
+    openCommand = "holster", -- Command that will open the weapon animation menu.
 
     -- Weapons for aim animations.
     AimWeapons = {
@@ -26,6 +26,13 @@ config = {
         "WEAPON_FLAREGUN",
         "WEAPON_STUNGUN",
         "WEAPON_REVOLVER",
+        -- custom
+        'WEAPON_TASER',
+        'WEAPON_DE',
+        'WEAPON_M9',
+        'WEAPON_FNX45',
+        'WEAPON_GLOCK18C',
+        'WEAPON_GLOCK22'
     },
 
     -- Weapons for drawing animations.
@@ -45,5 +52,12 @@ config = {
         "WEAPON_FLAREGUN",
         "WEAPON_STUNGUN",
         "WEAPON_REVOLVER",
+        -- custom
+        'WEAPON_TASER',
+        'WEAPON_DE',
+        'WEAPON_M9',
+        'WEAPON_FNX45',
+        'WEAPON_GLOCK18C',
+        'WEAPON_GLOCK22'
     },
 }
